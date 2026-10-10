@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday</title>
+
+<style>
+body{
+    background:#fdeff2;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    padding:50px;
+}
+
+.container{
+    background:white;
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+
+#letter{
+    display:none;
+    text-align:left;
+    margin-top:20px;
+}
+
+input{
+    padding:10px;
+    width:200px;
+}
+
+button{
+    padding:10px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<p>Enter the secret password:</p>
+
+<input type="password" id="password">
+
+<button onclick="checkPassword()">
+Open Letter
+</button>
+
+<div id="letter">
+
+<h2>Happiest Birthday Guddu❤️</h2>
+
+<p>
+Dear Bujipaa ❤️ ,
+Dear Ambalavanan ❤️,
+Dear Vaanan ❤️,
+<br><br>
+
+❤️I have always tried to give you the best love, best care, best support and best comfort as much as I could.
+❤️And I wish you will receive the bestest in all you pursue, in all you destined to become and wish you receive only happy happy moments.
+❤️Wishing u only good health, healthiest in all means, healthiest in all ways from head to toe ( nee kooda good habits mattum follow panni ava wishes nijamaga co-operate pannavum)
+❤️Wishing u lots of prosperous wealth, as abundant as you imagine. Wish you earn lots of profits by taking clarity financial decisions.
+❤️Strongly wish all your money crisis to resolve sooner and quicker like a magic  and wish Shankar Silks & Readymades to grow and grow 1000000000 times more profits to its propriter Kalaivanan.
+❤️I wish I hear your Hellloooooo with same cheer and happy tone every time we talk.
+❤️And grateful to this year's October for making us both back with our good bond and letting me wish whole heartedly 
+❤️Lastly, in your ups and downs, just remember 80 kms away a cute little heart is praying for your wellbeing silently, so only good prosperous happy positives will reach you and you are truly independently worthy capable enough to handle all situations how hard it is and you deserve lots of love and lots of laughs With regards,
+...
+ 🎉❤️
+
+<br><br>
+With regards,
+...
+</p>
+
+</div>
+
+</div>
+
+<script>
+function checkPassword() {
+
+let entered =
+document.getElementById("password").value;
+
+if(entered === "1314312") {
+
+document.getElementById("letter").style.display = "block";
+
+} else {
+
+alert("Wrong password!");
+
+}
+}
+</script>
+
+</body>
+</html>
